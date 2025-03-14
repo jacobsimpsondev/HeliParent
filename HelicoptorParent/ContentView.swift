@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    let keychain = KeychainHelper()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if keychain.getPasscode() == nil {
+            SetupView() // First-time users set a passcode
+        } else {
+            LoginView() // Returning users authenticate
         }
-        .padding()
     }
 }
 

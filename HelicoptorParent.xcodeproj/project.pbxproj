@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		16DEFDC52D8260B6005FAF37 /* HelicoptorParent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelicoptorParent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DEFDC52D8260B6005FAF37 /* HeliParent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeliParent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		16DEFDC62D8260B6005FAF37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16DEFDC52D8260B6005FAF37 /* HelicoptorParent.app */,
+				16DEFDC52D8260B6005FAF37 /* HeliParent.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16DEFDC42D8260B6005FAF37 /* HelicoptorParent */ = {
+		16DEFDC42D8260B6005FAF37 /* HeliParent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16DEFDD32D8260BB005FAF37 /* Build configuration list for PBXNativeTarget "HelicoptorParent" */;
+			buildConfigurationList = 16DEFDD32D8260BB005FAF37 /* Build configuration list for PBXNativeTarget "HeliParent" */;
 			buildPhases = (
 				16DEFDC12D8260B6005FAF37 /* Sources */,
 				16DEFDC22D8260B6005FAF37 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				16DEFDC72D8260B6005FAF37 /* HelicoptorParent */,
 			);
-			name = HelicoptorParent;
+			name = HeliParent;
 			packageProductDependencies = (
 			);
 			productName = HelicoptorParent;
-			productReference = 16DEFDC52D8260B6005FAF37 /* HelicoptorParent.app */;
+			productReference = 16DEFDC52D8260B6005FAF37 /* HeliParent.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16DEFDC42D8260B6005FAF37 /* HelicoptorParent */,
+				16DEFDC42D8260B6005FAF37 /* HeliParent */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +258,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -287,6 +288,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16DEFDD32D8260BB005FAF37 /* Build configuration list for PBXNativeTarget "HelicoptorParent" */ = {
+		16DEFDD32D8260BB005FAF37 /* Build configuration list for PBXNativeTarget "HeliParent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16DEFDD42D8260BB005FAF37 /* Debug */,
